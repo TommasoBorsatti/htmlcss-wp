@@ -43,18 +43,30 @@ li a {
   font-size: 18px;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
 }
+
+.overlay::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
 /* /regole css header */
 
 /* regole css per sezione hero */
 section.hero {
   margin: 3vh 0;
+  position: relative;
 }
 
 .hero img {
   width: 100%;
-  height: 70vh;
+  height: 65vh;
   object-fit: cover;
-  border-radius: 1%;
+  border-radius: 20px;
 
 }
 /* /regole css per sezione hero */
