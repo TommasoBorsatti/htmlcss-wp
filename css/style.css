@@ -67,7 +67,19 @@ section.hero {
   height: 65vh;
   object-fit: cover;
   border-radius: 20px;
+}
 
+section .text-container{
+  width: 55%;
+  position: absolute;
+  left:5%;
+  bottom: 15%;
+  color: #FCF8F7;
+  z-index: 10;
+}
+
+h2.section-title{
+  font-weight: normal;
 }
 /* /regole css per sezione hero */
 
