@@ -25,11 +25,23 @@ div.main-container {
 /* /regole container per centratura orizzontale pagina */
 
 /* regole css header */
-header {
-  background-color: #E579E6;
-  height: 150px;
-  margin: 3% 0 ;
-  
+
+header img{
+  height: 10vh;
+  margin-bottom: 4vh;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: #B2B2B2;
+  font-size: 18px;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
 }
 /* /regole css header */
 
