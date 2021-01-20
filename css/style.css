@@ -24,7 +24,7 @@ body {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 /* /regole universali css */
 
@@ -54,13 +54,11 @@ li a {
   font-size: 18px;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
 }
-
-
 /* /regole css header */
 
 /* regole css per sezione hero */
 section.hero {
-  margin: 3vh 0;
+  margin: 5vh 0 3vh 0;
   position: relative;
 }
 
@@ -68,7 +66,7 @@ section.hero {
   width: 100%;
   height: 65vh;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 section .text-container{
@@ -94,7 +92,7 @@ h3.section-title{
 
 div.title-bar {
   padding: 2vh 0;
-  margin-bottom: 2%;
+  margin-bottom: 2vh;
 }
 
 h2.main-title {
@@ -113,21 +111,23 @@ div.left-col, div.right-col {
   float: left;
   }
 
+  div.center-col {
+    width:56%;
+    margin: 0 2% 0 2%;
+    float: left;
+  }
+
 div.img-box{
   position: relative;
   margin-bottom: 3vh;
 }
 
-.left-col img {
-  width: 100%;
-  border-radius: 20px;
-}
 
-.right-col img, .center-col img {
-  height: 227.88px;
+.right-col img, .center-col img, .left-col img {
+  border-radius: 10px;
+  height: 25vh;
   width: 100%;
   object-fit: cover;
-
 }
 
 h3.column-title {
@@ -135,20 +135,13 @@ h3.column-title {
   font-size: 16px;
   color: #4F4F4F;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
-
+  padding-bottom: 1vh;
 }
 
 p.column-text {
   font-weight: normal;
   font-size: 16px;
-  color: #CFCFCF;
-}
-
-
-div.center-col {
-  width:56%;
-  margin: 0 2% 0 2%;
-  float: left;
+  color: #929292;
 }
 /* /regole css per sezione contenuti principali con layout float */
 
@@ -157,13 +150,11 @@ footer {
   text-align: center;
   margin: 2vh 0;
   padding: 2vh;
-
 }
 
 h3.footer-text {
-  color: #868686;
+  color: #262626;
   font-weight: normal;
-  text-shadow:  1px 1px 0px rgba(0, 0, 0, 0.4);
   font-size: 16px;
 }
 
