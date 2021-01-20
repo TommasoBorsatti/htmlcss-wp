@@ -154,8 +154,20 @@ div.center-col {
 
 /* regole xss footer */
 footer {
-  background-color: #8801FE;
-  height: 75px;
+  text-align: center;
   margin: 2vh 0;
+  padding: 2vh;
+
+}
+
+h3.footer-text {
+  color: #868686;
+  font-weight: normal;
+  text-shadow:  1px 1px 0px rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+}
+
+footer span {
+  color: red;
 }
 /* /regole xss footer */
